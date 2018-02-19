@@ -7,11 +7,17 @@
 		var num = document.getElementById("n1");
 		num.value = Math.pow(num.value, 3);
 	}
+	
+	function pow_n(n) {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, n);
+	}
+	
 </script>
 </head>
 
 <body>
 <h1>Calculadora de Juan Antonio CRIADO (jcriadoGITHUB)</h1>
-Number:&nbsp;<input type="text" id="n1">&nbsp;&nbsp;<button onclick="cube()"> x<sup>3</sup> </button>
+Number:&nbsp;<input type="text" id="n1">&nbsp;&nbsp;<button onclick="cube()"> x<sup>3</sup></button>&nbsp;<button onclick="pow_n(4)"> x<sup>4</sup></button>
 </body>
 </html>
